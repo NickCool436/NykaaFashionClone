@@ -1,10 +1,12 @@
+//category - womens page js
+
 // var scrollBtn = document.querySelector("#scrollTop");
 // scrollBtn.addEventListener("click", function () {
 //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 // });
 
 var productData = [
-  
+
   {
     imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/f/a/fablestreet_dr529whit_1_1d0d6579.jpg?rnd=20200526195200",
@@ -122,7 +124,7 @@ var productData = [
 
     color: "grey",
     size: "XS, S, M, L, XL, 2XL"
-},
+  },
 
   {
     imageURL:
@@ -174,8 +176,8 @@ var productData = [
     color: "blue",
     size: "XS, S, M, L, XL, 2XL",
   },
-{
- imageURL:
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/l/a/lavanyathelabel_lbl101ks70_1_68a0294f.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/a/lavanyathelabel_lbl101ks70_3_28251f9c.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/a/lavanyathelabel_lbl101ks70_4_5da34911.jpg?rnd=20200526195200",
@@ -190,9 +192,9 @@ var productData = [
 
     color: "blue",
     size: "XS, S, M, L, XL, 2XL"
-}
-,{
- imageURL:
+  }
+  , {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/l/a/lavanyathelabel_lbl101ks107_01_857f2b4d.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/a/lavanyathelabel_lbl101ks107_02_c612da3d.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/a/lavanyathelabel_lbl101ks107_03_226d7613.jpg?rnd=20200526195200",
@@ -207,10 +209,10 @@ var productData = [
 
     color: "red",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/o/n/onedp0001_1_b0a7e4e1.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/o/n/onedp0001_2_a29e7c7f.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/o/n/onedp0001_3_fe22aa33.jpg?rnd=20200526195200",
@@ -225,8 +227,8 @@ var productData = [
 
     color: "white",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
+  }
+  ,
   {
     imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/p/o/powder-blue-floral-a-line-fit-and-flare-short-dress-with-back-bow-tie_1_cdc7c0c7.jpg?rnd=20200526195200",
@@ -800,7 +802,7 @@ var productData = [
     color: "white",
     size: "XS, S, M, L, XL, 2XL",
   },
-  
+
   {
     imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/v/d/vdrf502192_1_61db4bf1.jpg?rnd=20200526195200",
@@ -817,10 +819,10 @@ var productData = [
 
     color: "Multi-color",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/m/s/ms-223a_1_09a6ad4f.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/s/ms-223a_2_aff0fdf5.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/s/ms-223a_3_15a80e98.jpg?rnd=20200526195200",
@@ -835,10 +837,10 @@ var productData = [
 
     color: "Multi-Color",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
- {
-imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/m/t/mtaw080_1_519bcb23.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/t/mtaw080_2_a9bc5fb5.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/t/mtaw080_3_b0fe8313.jpg?rnd=20200526195200",
@@ -853,10 +855,10 @@ imageURL:
 
     color: "orange",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/m/s/ms-155_001_4a3eb906.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/s/ms-155_002_aef2790b.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/s/ms-155_003_7d584afe.jpg?rnd=20200526195200",
@@ -871,10 +873,10 @@ imageURL:
 
     color: "Multi-Color",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/s/2/s21286madr02_1_bf361c80.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/s/2/s21286madr02_2_40f272f3.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/s/2/s21286madr02_3_848faeb3.jpg?rnd=20200526195200",
@@ -889,10 +891,10 @@ imageURL:
 
     color: "Multi-Color",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/e/p/ep-07-107_1_7022f200.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/e/p/ep-07-107_2_04f33850.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/e/p/ep-07-107_3_74e0dff9.jpg?rnd=20200526195200",
@@ -907,10 +909,10 @@ imageURL:
 
     color: "Red",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/s/w/swtantra_086_1_0e4fd8c8.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/s/w/swtantra_086_2_9aa1b231.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/s/w/swtantra_086_3_e6671669.jpg?rnd=20200526195200",
@@ -925,10 +927,10 @@ imageURL:
 
     color: "plum",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/b/a/bai_sss_32_1_9cb89e4a.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/b/a/bai_sss_32_2_322bf128.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/b/a/bai_sss_32_3_3c93cf65.jpg?rnd=20200526195200",
@@ -943,10 +945,10 @@ imageURL:
 
     color: "green",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/r/t/rtor0020_1_d74bb6f3.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/r/t/rtor0020_2_70ab9744.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/r/t/rtor0020_3_076b7109.jpg?rnd=20200526195200",
@@ -961,10 +963,10 @@ imageURL:
 
     color: "maroon",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/2/d/2d-tp1671_1_7270eebc.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/2/d/2d-tp1671_2_d320034f.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/2/d/2d-tp1671_3_30ddcfeb.jpg?rnd=20200526195200",
@@ -979,10 +981,10 @@ imageURL:
 
     color: "green",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/m/m/mm-859_1_84d80f74.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/m/mm-859_2_88371f59.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/m/mm-859_3_80e5515d.jpg?rnd=20200526195200",
@@ -997,10 +999,10 @@ imageURL:
 
     color: "red",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/l/b/lbl102ds11_1.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/b/lbl102ds11_2.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/b/lbl102ds11_3.jpg?rnd=20200526195200",
@@ -1015,10 +1017,10 @@ imageURL:
 
     color: "blue",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/n/7/n724_1_bad65d5d.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/7/n724_2_c398e09a.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/7/n724_3_b41e5469.jpg?rnd=20200526195200",
@@ -1033,10 +1035,10 @@ imageURL:
 
     color: "pink",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/l/a/lavan00000299_1_f581806d.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/a/lavan00000299_2_cd77727c.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/a/lavan00000299_3_2a4dd02f.jpg?rnd=20200526195200",
@@ -1051,10 +1053,10 @@ imageURL:
 
     color: "green",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/l/b/lbl101ks112_1_574fb31c.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/b/lbl101ks112_2_c4e9dfff.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/l/b/lbl101ks112_3_46335760.jpg?rnd=20200526195200",
@@ -1069,10 +1071,10 @@ imageURL:
 
     color: "yellow",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/1/0/1032a-a393_1_b64a43f8.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/1/0/1032a-a393_2_5ef79a1c.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/1/0/1032a-a393_3_6800955c.jpg?rnd=20200526195200",
@@ -1087,10 +1089,10 @@ imageURL:
 
     color: "pink",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/t/l/tlc-229_8f14f324.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/l/tlc-229_1_2624e49b.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/l/tlc-229_2_7e3a3154.jpg?rnd=20200526195200",
@@ -1105,10 +1107,10 @@ imageURL:
 
     color: "pink",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/c/o/combat123_1_c4932172.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/c/o/combat123_2_8c5f27be.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/c/o/combat123_3_f5517c9c.jpg?rnd=20200526195200",
@@ -1123,10 +1125,10 @@ imageURL:
 
     color: "green",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/n/y/nyk076-distresstie-dye1a_1_44709223.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/y/nyk076-distresstie-dye1a_2_8a268872.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/y/nyk076-distresstie-dye1a_3_f33084a0.jpg?rnd=20200526195200",
@@ -1141,10 +1143,10 @@ imageURL:
 
     color: "pink",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/v/a/vanhe3023_20a_1_ec7a5c57.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/v/a/vanhe3023_20a_2_f4d0cdfc.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/v/a/vanhe3023_20a_3_294ddb13.jpg?rnd=20200526195200",
@@ -1159,10 +1161,10 @@ imageURL:
 
     color: "pink",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/p/u/puma-51949205_1_861d125f.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/p/u/puma-51949205_2_de626dc6.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/p/u/puma-51949205_5_e6affac9.jpg?rnd=20200526195200",
@@ -1177,10 +1179,10 @@ imageURL:
 
     color: "Black",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/w/1/w139af_1_935772f1.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/w/1/w139af_2_3aad6804.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/w/1/w139af_3_ac0dc19b.jpg?rnd=20200526195200",
@@ -1195,10 +1197,10 @@ imageURL:
 
     color: "blue",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/p/u/puma_52083602_1_e041742d.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/p/u/puma_52083602_2_5d3cc603.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/p/u/puma_52083602_3_5aba5743.jpg?rnd=20200526195200",
@@ -1213,10 +1215,10 @@ imageURL:
 
     color: "white",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/n/y/nyle_ether_01_291b5a3b.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/y/nyle_ether_02_f7719dfe.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/y/nyle_ether_03_7853132c.jpg?rnd=20200526195200",
@@ -1231,10 +1233,10 @@ imageURL:
 
     color: "green",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/n/anti-culture-sc-2002-t.green_1_8b38eb15.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/a/n/anti-culture-sc-2002-t.green_2_87274df2.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/a/n/anti-culture-sc-2002-t.green_3_0f6a686b.jpg?rnd=20200526195200",
@@ -1249,10 +1251,10 @@ imageURL:
 
     color: "green",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
- imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/m/p/mpl-02blue-f20_1.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/p/mpl-02blue-f20_2.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/m/p/mpl-02blue-f20_3.jpg?rnd=20200526195200",
@@ -1267,10 +1269,10 @@ imageURL:
 
     color: "blue",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
-imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/n/j/njs001-baroquerose-1_e600a89d.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/j/njs001-baroquerose-2_32699a11.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/n/j/njs001-baroquerose-3_ce7c5c6b.jpg?rnd=20200526195200",
@@ -1285,10 +1287,10 @@ imageURL:
 
     color: "pink",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
-imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/t/h/theka00003412__1_bad9f645.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/h/theka00003412__4_2c1d6a78.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/h/theka00003412__5_92b82e61.jpg?rnd=20200526195200",
@@ -1303,10 +1305,10 @@ imageURL:
 
     color: "white",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
-imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/t/h/theka00003413__1_4513177b.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/h/theka00003413__10_05c38012.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/h/theka00003413__4_e7178931.jpg?rnd=20200526195200",
@@ -1321,10 +1323,10 @@ imageURL:
 
     color: "black",
     size: "XS, S, M, L, XL, 2XL"
-}
-,
-{
-imageURL:
+  }
+  ,
+  {
+    imageURL:
       "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/t/h/theka00002207__1_0c1cd1fa.jpg?rnd=20200526195200",
     img1: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/h/theka00002207__3_057adb2b.jpg?rnd=20200526195200",
     img2: "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/t/h/theka00002207__4_5c0e14b2.jpg?rnd=20200526195200",
@@ -1339,7 +1341,7 @@ imageURL:
 
     color: "black",
     size: "XS, S, M, L, XL, 2XL"
-}
+  }
 ];
 
 var womenS = document.getElementById("Women");
