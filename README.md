@@ -18,7 +18,7 @@
 ## Our Team Members ❤️
 
 - **[Nitesh Baghel](https://github.com/nitesh172)**
-- **[Jayesh Khairnar](https://github.com/jayeshk425)**
+- **[Jayesh Khairnar](https://github.com/jayeshk99)**
 - **[Sonali Gupta](https://github.com/SonaliGupta1216)**
 - **[Dinesh Gupta](https://github.com/dinoweblog)**
 - **[Yatharth Verma](https://github.com/yeti201)**
